@@ -1,0 +1,28 @@
+[{
+    "id": "ceo-tshirt",
+    "name": "[CEO t-shirt]",
+    "price": 20,
+    "image": "/images/ceo-tshirt.png",
+    "options": [{
+        "label": "size",
+        "values": ["S", "M", "L", "XL"]
+    }]
+}, {
+    "id": "dev-hoodie",
+    "name": "[dev hoodie]",
+    "price": 50,
+    "image": "/images/developer-hoodie.png",
+    "options": [{
+        "label": "size",
+        "values": ["S", "M", "L", "XL"]
+    }]
+}, {
+    "id": "designer-cap",
+    "name": "[designer cap]",
+    "price": 10,
+    "image": "/images/designer-cap.png",
+    "options": [{
+        "label": "size",
+        "values": ["S", "M", "L", "XL"]
+    }]
+}]
