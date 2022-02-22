@@ -1,1 +1,5 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Basement Studio Challenge.
+
+Typescript - Next.js - Chakra UI
+
+by tobi# basement
