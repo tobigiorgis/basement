@@ -41,7 +41,7 @@ const Basement: NextPage<ProdProps> = ({products, sizes}) => {
       <nav className={utilStyles.nav}>
         <Image className={utilStyles.basementPhone} height={10} width={40} alt='basement' src='/images/Favicon.png' ></Image>
         {/* <Image className={utilStyles.basementLogo} height={10} width={140} alt='basement' src='/images/basement.png'></Image> */}
-        <Image className={utilStyles.basementLogo} height={30} width={130} alt='graphics' src='/images/graphics.png'></Image>
+        <Image className={utilStyles.basementLogo} height={10} width={220} alt='graphics' src='/images/graphics.png'></Image>
         <button className={utilStyles.cart} onClick={onOpen}>Cart ({cart.length})</button>
         <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay  />
@@ -63,7 +63,7 @@ const Basement: NextPage<ProdProps> = ({products, sizes}) => {
             
             <Stack sx={{
             '@media screen and (max-width: 480px)': {width:'100vw', padding: '2vw', height: '100%'}
-          }}  height='70%' width='100%' overflowY='auto' display='flex' justifyContent='center' alignItems='center'>
+          }}  height='70%' width='100%' marginTop='10vh' overflowY='auto' display='flex' justifyContent='center' alignItems='center'>
             
             {cart.map((product) => (
             // Box 2
@@ -145,7 +145,7 @@ const Basement: NextPage<ProdProps> = ({products, sizes}) => {
           </div>
         ))}
       </section>
-      
+
       <footer className={utilStyles.basementFooter}>
         <Image alt='Wear Everyday' src='/images/footer.png' height={500} width={1680}></Image>
       </footer>
