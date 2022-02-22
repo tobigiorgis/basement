@@ -150,7 +150,7 @@ transform: translateX(-90vw);
 }
 
 .imageDiv{
-    height: 50vh;
+    height: 43vh;
     cursor: pointer;
     border-bottom: groove 1px white;
     background-image: linear-gradient(to bottom, #000000, #0c0b0b, #141414, #1b1a1a, #212020);
@@ -161,6 +161,7 @@ transform: translateX(-90vw);
 }
 
 .npDiv{
+    margin-top: 1vh;
     display: flex;
     width: 100%;
     justify-content: space-between;
